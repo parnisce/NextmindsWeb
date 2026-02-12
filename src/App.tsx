@@ -11,6 +11,10 @@ import RealEstateMediaPage from './pages/RealEstateMediaPage'
 import ProfessionalMediaPage from './pages/ProfessionalMediaPage'
 import ContactPage from './pages/ContactPage'
 import Footer from './components/Footer'
+import AILeadGenerationPage from './pages/AILeadGenerationPage'
+import AIImplementationPage from './pages/AIImplementationPage'
+import AIContentRepurposingPage from './pages/AIContentRepurposingPage'
+import AIVirtualAssistantPage from './pages/AIVirtualAssistantPage'
 
 // Scroll to top component
 const ScrollToTop = () => {
@@ -74,6 +78,10 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/ai-services" element={<AIServicesPage />} />
+          <Route path="/ai-lead-generation" element={<AILeadGenerationPage />} />
+          <Route path="/ai-implementation" element={<AIImplementationPage />} />
+          <Route path="/ai-content-repurposing" element={<AIContentRepurposingPage />} />
+          <Route path="/ai-virtual-assistants" element={<AIVirtualAssistantPage />} />
           <Route path="/digital-agency" element={<DigitalAgencyPage />} />
           <Route path="/real-estate-media" element={<RealEstateMediaPage />} />
           <Route path="/professional-media" element={<ProfessionalMediaPage />} />
